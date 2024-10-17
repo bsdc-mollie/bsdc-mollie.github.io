@@ -9,20 +9,31 @@ a{
     text-align: right;
     color:#ffffff; 
     font: Garamond;
-    font-size: 150%;;
+    font-size: 200%;;
+    
 }
 h1{
     text-align: right;
-    color:#f6f1cf; 
+    color:#F2E6B7; 
     font: Garamond;
-    font-size: 600%;
+    font-size: 650%;
+    line-height: 25px;
+    margin-bottom: 0;
+    
 }
 h2{
     text-align: right;
     color:#ffffff;  
     font: Garamond;
+    margin-top: 1;
+    
+    
 }
-.index {
+
+.hidden{
+    color:#f2e6b700;
+}
+.sidebar {
     float: right;
     display:block;
     flex-direction: column;
@@ -40,4 +51,15 @@ h2{
 .box3{
     flex-grow: 3;
 
+}
+
+.bottombar{
+    background-color:#141414 ;
+    padding: 15px;
+    display: flex;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width: 100%;
+    
 }
