@@ -2,10 +2,42 @@ body{
     background-image: url(/Images/tequilla_Background.jpg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+
+}
+a{  
+    text-decoration: none;
+    text-align: right;
+    color:#ffffff; 
+    font: Garamond;
+    font-size: 150%;;
 }
 h1{
     text-align: right;
     color:#f6f1cf; 
     font: Garamond;
     font-size: 600%;
+}
+h2{
+    text-align: right;
+    color:#ffffff;  
+    font: Garamond;
+}
+.index {
+    float: right;
+    display:block;
+    flex-direction: column;
+}
+.item{
+    height: 100px;
+    width: 150px;
+}
+.box1{
+    flex-grow: 1;
+}
+.box2{
+    flex-grow: 3;
+}
+.box3{
+    flex-grow: 3;
+
 }
