@@ -64,7 +64,19 @@ h2{
     width: 100%;
     
 }
-.img{
-    height: 1%;
-    width: 1%;
+img{
+    height: 50px;
+    width: 50px;
+}
+
+p{
+    text-align: right;
+    color:#ffffff;  
+    font: Garamond;
+    font-size: 110%;
+}
+
+.right{
+    position: absolute;
+    left: 4%;
 }
