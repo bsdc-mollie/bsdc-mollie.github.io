@@ -4,6 +4,9 @@ body{
     background-repeat: no-repeat;
 
 }
+.navbar-custom {
+    background-color: #ff5500;
+}
 a{  
     text-decoration: none;
     text-align: right;
