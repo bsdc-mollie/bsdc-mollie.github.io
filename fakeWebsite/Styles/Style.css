@@ -1,5 +1,5 @@
 body{
-    background-image: url(/Images/tequilla_Background.jpg);
+    background-image: url(Images/tequilla_Background.jpg);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
 
@@ -20,6 +20,7 @@ h1{
     font-size: 650%;
     line-height: 25px;
     margin-bottom: 0;
+    
     
 }
 h2{
@@ -52,15 +53,11 @@ h2{
     flex-grow: 3;
     text-align: right;
 }
-.box3{
-    flex-grow: 3;
-    text-align: right;
 
-}
 
 .bottombar{
     background-color:#141414 ;
-    padding: 15px;
+    padding: 5px;
     display: flex;
     /* position:absolute; */
     left:0;
@@ -68,7 +65,15 @@ h2{
     width: 100%;
     
 }
-.img{
-    height: 1%;
-    width: 1%;
+
+img{
+    height: 50px;
+    width: 50px;
+}
+
+p{
+    text-align: right;
+    color:#ffffff;  
+    font: Garamond;
+    font-size: 110%;
 }
