@@ -62,7 +62,7 @@ h2{
     background-color:#141414 ;
     padding: 15px;
     display: flex;
-    position:absolute;
+    /* position:absolute; */
     left:0;
     bottom:0;
     width: 100%;

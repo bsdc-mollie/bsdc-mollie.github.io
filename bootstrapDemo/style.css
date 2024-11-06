@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    border: red solid 3px;
+    height: 100%;
+}
+
+body{
+    border: green solid 3px;
+    
+}
+
+.container{
+    border: blue solid 1px;
+}
+
+.greenx{
+    background-color: green;
+}
