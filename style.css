@@ -4,9 +4,14 @@ body{
     background-repeat: no-repeat;
 
 }
+.card{
 
+    display: flex;
+    position: fixed;
+
+}
 .bottombar{
-    background-color:#638854 ;
+    background-color: #638854 ;
     padding: 15px;
     display: flex;
     position:absolute;
