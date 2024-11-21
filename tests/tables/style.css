@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgba(240, 238, 213, 0.712);
+}
+
+table {
+    border: 1px solid rgb(207, 160, 71);
+    padding: 2px;
+    background-color: antiquewhite;
+    text-align: center;
+}
+ 
+th {
+    border: 2px solid rgb(207, 160, 71);
+}
+td{
+    padding: 5px;
+    border: 1px solid rgb(207, 160, 71);
+}
+h1{
+    padding-top: 20px;
+}
