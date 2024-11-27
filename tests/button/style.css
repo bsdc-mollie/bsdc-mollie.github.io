@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: rgba(164, 202, 159, 0.192);
+}
+
+button{
+    font-size: 30px;
+    padding: 14px 40px;
+    border: solid 2px rgb(92, 175, 92);
+    border-radius: 40px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+
+}
+
+button:hover{
+font-size: 32px;
+background-color: rgb(92, 175, 92);
+color: aliceblue;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: rgba(164, 202, 159, 0.192);
+
+}
+
+#myDIV {
+    background-color: red;
+    animation: mymove 5s infinite;
+}
+@keyframes mymove {
+    from {background-color: red;}
+    to {background-color: blue;}
+    
+  }
