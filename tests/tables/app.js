@@ -25,7 +25,6 @@ for(i=0;i<ac.length;i++) {
 console.log(newac)
 newac.innerHTML = `<td>${ac[i].name}</td><td>${ac[i].element}</td><td>${ac[i].game}</td>`;
 console.log(newac)
- 
 skylandersTable.appendChild(newac);
  
 }
