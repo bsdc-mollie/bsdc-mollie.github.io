@@ -3,7 +3,7 @@ console.log("Form App running");
 const myForm = document.getElementById("myForm");
 console.log(myForm);
 
-myForm.addEventListener("submit", function (event)) {
+myForm.addEventListener("submit", function (event) {
   event.preventDefault();
   console.log("button pressed", event);
 
