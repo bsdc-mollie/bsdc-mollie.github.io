@@ -1,29 +1,20 @@
 body{
-    background-image: url(/images/Branding2.jpg);
-    background-size: 100vw 100vh;
-    background-repeat: no-repeat;
-
 }
-.card{
 
-    display: flex;
-    position: fixed;
-
+h1{
+    text-align: center;
 }
-.bottombar{
-    background-color: #638854 ;
-    padding: 15px;
-    display: flex;
-    position:absolute;
-    top: 50%;
-    width: 100%;
+
+.space{
     height: 35px;
 }
 
-a{
-    text-align: center;
-    text-decoration: none;
-    color:beige;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 200%;
-}
+.projects{
+    
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        align-content: center;
+    }

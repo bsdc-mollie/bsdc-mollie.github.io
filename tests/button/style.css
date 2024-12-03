@@ -10,38 +10,56 @@ html, body{
     text-align: center;
     background-color: rgba(164, 202, 159, 0.192);
 }
-
-button{
-    font-size: 30px;
-    padding: 14px 40px;
-    border: solid 2px rgb(92, 175, 92);
-    border-radius: 40px;
-    transition-duration: 0.5s;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+.question {
+    margin-bottom: 15px;
+}
+.question label {
+    font-size: 18px;
+}
+.answers input {
+    margin-right: 10px;
+}
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
     cursor: pointer;
-
+    border-radius: 5px;
 }
-
-button:hover{
-font-size: 32px;
-background-color: rgb(92, 175, 92);
-color: aliceblue;
+.btn-submit:hover {
+    background-color: #45a049;
 }
-
-.red{
-    background-color: red;
+.result {
+    display: none;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
 }
-
-.blue{
-    background-color: rgba(164, 202, 159, 0.192);
-
+.correct {
+    color: green;
 }
-
-#myDIV {
-    background-color: red;
-    animation: mymove 5s infinite;
+.incorrect {
+    color: red;
 }
-@keyframes mymove {
-    from {background-color: red;}
-    to {background-color: blue;}
-    
-  }
