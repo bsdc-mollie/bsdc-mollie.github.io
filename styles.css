@@ -2,19 +2,21 @@ body{
     background-color: #1c1d1f;
 
 }
-
 .card-img{
-    height: 600px;
+    height: 550px;
     
 }
 .navbar{
     height: 100px;
+    background-color: #111111;
+
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	align-items: stretch;
 	align-content: center;
+    margin-bottom: 0px;
 }
 .navbar-contents{
     display: flex;
@@ -24,8 +26,12 @@ body{
 	align-items: stretch;
 	align-content: center;
     text-align: center;
+    margin-bottom: 0px;
 }
-
+#nav-img{
+    height: 50px;
+    padding: 20px 0px 0px 20px;
+}
 .card-outer{
     display: flex;
 	flex-direction: row;
@@ -33,7 +39,7 @@ body{
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
-   padding: 5px 15px 5px 15px;
+   padding: 20px 30px 20px 30px;
 }
 
 .card-insides{
@@ -51,16 +57,23 @@ hr.gradient {
       #107E57 51%,
       #CBE58E 100%
     );
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+
+  .top{
+    margin-top: 0;
+    margin-bottom: 5px;
   }
 
   .projects{
     display: flex;
 	flex-direction: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: stretch;
-   padding: 5px 15px 5px 15px;
+   padding: 5px 40px 5px 40px;
 }
 
 .projects-insides{
@@ -74,4 +87,88 @@ hr.gradient {
 .btn{
     background-color: #107E57;
     padding: #107E57;
+    border-color: #013026 ;
 }
+
+.projects{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+   padding: 0px 30px 5px 30px;
+}
+
+.projects-insides{
+    padding: 7px;
+    text-align: center;
+}
+.about{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+   padding: 0px 30px 5px 30px;
+}
+
+.about-insides{
+    padding: 7px;
+    text-align: center;
+    background-color: #212529;
+    border-radius: 25px;
+}
+.contact{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: stretch;
+   padding: 0px 30px 5px 30px;
+}
+
+.contact-insides{
+    padding: 7px;
+    text-align: center;
+    background-color: #212529;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+font-size: 20px;}
+
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border-radius: 4px; 
+    box-sizing: border-box; /
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  
+  input[type=submit] {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #212529;
+    padding: 20px;
+  }
